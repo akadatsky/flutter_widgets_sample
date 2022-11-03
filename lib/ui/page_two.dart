@@ -11,9 +11,7 @@ class PageTwo extends StatefulWidget {
   }) : super(key: key);
 
   @override
-  State<StatefulWidget> createState() {
-    return _PageTwoState();
-  }
+  State<StatefulWidget> createState() => _PageTwoState();
 }
 
 class _PageTwoState extends State<PageTwo> {
